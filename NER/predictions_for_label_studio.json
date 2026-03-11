@@ -1,0 +1,169 @@
+[
+  {
+    "data": {
+      "text": "Meta Platforms invested $10 billion in AI research in 2024."
+    },
+    "predictions": [
+      {
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 0,
+              "end": 14,
+              "text": "Meta Platforms",
+              "labels": [
+                "PER"
+              ]
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 24,
+              "end": 35,
+              "text": "$10 billion",
+              "labels": [
+                "MONEY"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "Sundar Pichai announced new Pixel features at Google I/O in Mountain View."
+    },
+    "predictions": [
+      {
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 0,
+              "end": 13,
+              "text": "Sundar Pichai",
+              "labels": [
+                "PER"
+              ]
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 46,
+              "end": 56,
+              "text": "Google I/O",
+              "labels": [
+                "ORG"
+              ]
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 69,
+              "end": 74,
+              "text": "View.",
+              "labels": [
+                "ORG"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "The Dow Jones dropped 500 points after the Fed announcement on Wednesday."
+    },
+    "predictions": [
+      {
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 4,
+              "end": 13,
+              "text": "Dow Jones",
+              "labels": [
+                "PRODUCT"
+              ]
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 63,
+              "end": 73,
+              "text": "Wednesday.",
+              "labels": [
+                "ORG"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "Amazon's AWS division hired 5,000 new engineers in India last quarter."
+    },
+    "predictions": []
+  },
+  {
+    "data": {
+      "text": "Berkshire Hathaway reported $97 billion in revenue for fiscal year 2023."
+    },
+    "predictions": [
+      {
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 0,
+              "end": 18,
+              "text": "Berkshire Hathaway",
+              "labels": [
+                "PER"
+              ]
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 28,
+              "end": 39,
+              "text": "$97 billion",
+              "labels": [
+                "MONEY"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

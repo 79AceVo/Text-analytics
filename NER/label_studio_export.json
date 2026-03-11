@@ -1,0 +1,615 @@
+[
+  {
+    "data": {
+      "text": "Apple announced a new MacBook Pro at their Cupertino headquarters."
+    },
+    "annotations": [
+      {
+        "result": [
+          {
+            "value": {
+              "start": 0,
+              "end": 5,
+              "text": "Apple",
+              "labels": [
+                "ORG"
+              ]
+            },
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels"
+          },
+          {
+            "value": {
+              "start": 22,
+              "end": 33,
+              "text": "MacBook Pro",
+              "labels": [
+                "PRODUCT"
+              ]
+            },
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels"
+          },
+          {
+            "value": {
+              "start": 43,
+              "end": 62,
+              "text": "Cupertino headquarters",
+              "labels": [
+                "LOC"
+              ]
+            },
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "Elon Musk is the CEO of Tesla and SpaceX."
+    },
+    "annotations": [
+      {
+        "result": [
+          {
+            "value": {
+              "start": 0,
+              "end": 9,
+              "text": "Elon Musk",
+              "labels": [
+                "PER"
+              ]
+            },
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels"
+          },
+          {
+            "value": {
+              "start": 24,
+              "end": 29,
+              "text": "Tesla",
+              "labels": [
+                "ORG"
+              ]
+            },
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels"
+          },
+          {
+            "value": {
+              "start": 34,
+              "end": 40,
+              "text": "SpaceX",
+              "labels": [
+                "ORG"
+              ]
+            },
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "The S&P 500 rose 2% after the Federal Reserve cut rates in December."
+    },
+    "annotations": [
+      {
+        "result": [
+          {
+            "value": {
+              "start": 4,
+              "end": 11,
+              "text": "S&P 500",
+              "labels": [
+                "PRODUCT"
+              ]
+            },
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels"
+          },
+          {
+            "value": {
+              "start": 30,
+              "end": 45,
+              "text": "Federal Reserve",
+              "labels": [
+                "ORG"
+              ]
+            },
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels"
+          },
+          {
+            "value": {
+              "start": 62,
+              "end": 70,
+              "text": "December",
+              "labels": [
+                "DATE"
+              ]
+            },
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "Microsoft Azure revenue grew 29% to $24.3 billion in Q2 2024."
+    },
+    "annotations": [
+      {
+        "result": [
+          {
+            "value": {
+              "start": 0,
+              "end": 15,
+              "text": "Microsoft Azure",
+              "labels": [
+                "PRODUCT"
+              ]
+            },
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels"
+          },
+          {
+            "value": {
+              "start": 36,
+              "end": 49,
+              "text": "$24.3 billion",
+              "labels": [
+                "MONEY"
+              ]
+            },
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels"
+          },
+          {
+            "value": {
+              "start": 53,
+              "end": 60,
+              "text": "Q2 2024",
+              "labels": [
+                "DATE"
+              ]
+            },
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "Goldman Sachs analyst Sarah Chen upgraded Nvidia to buy."
+    },
+    "annotations": [
+      {
+        "result": [
+          {
+            "value": {
+              "start": 0,
+              "end": 13,
+              "text": "Goldman Sachs",
+              "labels": [
+                "ORG"
+              ]
+            },
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels"
+          },
+          {
+            "value": {
+              "start": 22,
+              "end": 31,
+              "text": "Sarah Chen",
+              "labels": [
+                "PER"
+              ]
+            },
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels"
+          },
+          {
+            "value": {
+              "start": 41,
+              "end": 47,
+              "text": "Nvidia",
+              "labels": [
+                "ORG"
+              ]
+            },
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "Jeff Bezos founded Amazon in his garage in Seattle."
+    },
+    "annotations": [
+      {
+        "result": [
+          {
+            "value": {
+              "start": 0,
+              "end": 10,
+              "text": "Jeff Bezos",
+              "labels": [
+                "PER"
+              ]
+            },
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels"
+          },
+          {
+            "value": {
+              "start": 19,
+              "end": 25,
+              "text": "Amazon",
+              "labels": [
+                "ORG"
+              ]
+            },
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels"
+          },
+          {
+            "value": {
+              "start": 43,
+              "end": 50,
+              "text": "Seattle",
+              "labels": [
+                "LOC"
+              ]
+            },
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "Google released Gemini Pro to compete with GPT-4 from OpenAI."
+    },
+    "annotations": [
+      {
+        "result": [
+          {
+            "value": {
+              "start": 0,
+              "end": 6,
+              "text": "Google",
+              "labels": [
+                "ORG"
+              ]
+            },
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels"
+          },
+          {
+            "value": {
+              "start": 16,
+              "end": 26,
+              "text": "Gemini Pro",
+              "labels": [
+                "PRODUCT"
+              ]
+            },
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels"
+          },
+          {
+            "value": {
+              "start": 44,
+              "end": 49,
+              "text": "GPT-4",
+              "labels": [
+                "PRODUCT"
+              ]
+            },
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels"
+          },
+          {
+            "value": {
+              "start": 55,
+              "end": 61,
+              "text": "OpenAI",
+              "labels": [
+                "ORG"
+              ]
+            },
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "Warren Buffett sold $6.2 billion in Bank of America shares in August 2024."
+    },
+    "annotations": [
+      {
+        "result": [
+          {
+            "value": {
+              "start": 0,
+              "end": 14,
+              "text": "Warren Buffett",
+              "labels": [
+                "PER"
+              ]
+            },
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels"
+          },
+          {
+            "value": {
+              "start": 20,
+              "end": 32,
+              "text": "$6.2 billion",
+              "labels": [
+                "MONEY"
+              ]
+            },
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels"
+          },
+          {
+            "value": {
+              "start": 36,
+              "end": 52,
+              "text": "Bank of America",
+              "labels": [
+                "ORG"
+              ]
+            },
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels"
+          },
+          {
+            "value": {
+              "start": 63,
+              "end": 74,
+              "text": "August 2024",
+              "labels": [
+                "DATE"
+              ]
+            },
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "Netflix reported 13 million new subscribers in Q4."
+    },
+    "annotations": [
+      {
+        "result": [
+          {
+            "value": {
+              "start": 0,
+              "end": 7,
+              "text": "Netflix",
+              "labels": [
+                "ORG"
+              ]
+            },
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels"
+          },
+          {
+            "value": {
+              "start": 46,
+              "end": 48,
+              "text": "Q4",
+              "labels": [
+                "DATE"
+              ]
+            },
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "Sam Altman presented GPT-5 at the OpenAI DevDay in San Francisco."
+    },
+    "annotations": [
+      {
+        "result": [
+          {
+            "value": {
+              "start": 0,
+              "end": 10,
+              "text": "Sam Altman",
+              "labels": [
+                "PER"
+              ]
+            },
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels"
+          },
+          {
+            "value": {
+              "start": 21,
+              "end": 26,
+              "text": "GPT-5",
+              "labels": [
+                "PRODUCT"
+              ]
+            },
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels"
+          },
+          {
+            "value": {
+              "start": 34,
+              "end": 40,
+              "text": "OpenAI",
+              "labels": [
+                "ORG"
+              ]
+            },
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels"
+          },
+          {
+            "value": {
+              "start": 51,
+              "end": 64,
+              "text": "San Francisco",
+              "labels": [
+                "LOC"
+              ]
+            },
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "Toyota Motor Company reported record profits of $28 billion for fiscal year 2024."
+    },
+    "annotations": [
+      {
+        "result": [
+          {
+            "value": {
+              "start": 0,
+              "end": 21,
+              "text": "Toyota Motor Company",
+              "labels": [
+                "ORG"
+              ]
+            },
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels"
+          },
+          {
+            "value": {
+              "start": 49,
+              "end": 60,
+              "text": "$28 billion",
+              "labels": [
+                "MONEY"
+              ]
+            },
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels"
+          },
+          {
+            "value": {
+              "start": 65,
+              "end": 81,
+              "text": "fiscal year 2024",
+              "labels": [
+                "DATE"
+              ]
+            },
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "The iPhone 15 became the best selling smartphone in North America."
+    },
+    "annotations": [
+      {
+        "result": [
+          {
+            "value": {
+              "start": 4,
+              "end": 13,
+              "text": "iPhone 15",
+              "labels": [
+                "PRODUCT"
+              ]
+            },
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels"
+          },
+          {
+            "value": {
+              "start": 50,
+              "end": 63,
+              "text": "North America",
+              "labels": [
+                "LOC"
+              ]
+            },
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels"
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,26 @@
+Thomas	B-PERSON
+Jefferson	I-PERSON
+writes	O
+the	B-WORK_OF_ART
+Declaration	I-WORK_OF_ART
+of	I-WORK_OF_ART
+Independence	I-WORK_OF_ART
+
+My	O
+friend	O
+Tom	B-PERSON
+works	O
+at	O
+Google	B-ORG
+
+Apple	B-ORG
+announced	O
+record	O
+revenue	O
+of	O
+$81.8	B-MONEY
+billion	I-MONEY
+in	O
+Q3	B-DATE
+2024	I-DATE
+

@@ -1,0 +1,126 @@
+[
+  {
+    "data": {
+      "text": "Thomas Jefferson writes the Declaration of Independence"
+    },
+    "predictions": [
+      {
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 0,
+              "end": 16,
+              "text": "Thomas Jefferson",
+              "labels": [
+                "PERSON"
+              ]
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 24,
+              "end": 55,
+              "text": "the Declaration of Independence",
+              "labels": [
+                "WORK_OF_ART"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "My friend Tom works at Google"
+    },
+    "predictions": [
+      {
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 10,
+              "end": 13,
+              "text": "Tom",
+              "labels": [
+                "PERSON"
+              ]
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 23,
+              "end": 29,
+              "text": "Google",
+              "labels": [
+                "ORG"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "data": {
+      "text": "Apple announced record revenue of $81.8 billion in Q3 2024"
+    },
+    "predictions": [
+      {
+        "result": [
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 0,
+              "end": 5,
+              "text": "Apple",
+              "labels": [
+                "ORG"
+              ]
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 34,
+              "end": 47,
+              "text": "$81.8 billion",
+              "labels": [
+                "MONEY"
+              ]
+            }
+          },
+          {
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+              "start": 51,
+              "end": 58,
+              "text": "Q3 2024",
+              "labels": [
+                "DATE"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
