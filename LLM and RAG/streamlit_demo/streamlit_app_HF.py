@@ -16,7 +16,7 @@ load_dotenv()
 st.set_page_config(page_title="NovaTech RAG Chatbot", page_icon="🤖")
 
 # ── Config ──
-MODEL_ID = "HuggingFaceH4/zephyr-7b-beta"
+MODEL_ID = "google/gemma-2-2b-it"
 
 GROUNDED_PROMPT = """You are a concise assistant for NovaTech, a data analytics consulting firm.
 Answer the question using ONLY the information provided in the context below.
